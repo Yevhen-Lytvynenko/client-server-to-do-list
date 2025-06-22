@@ -1,0 +1,12 @@
+# CMake build directory (out-of-source builds)
+build/
+
+# Local IDE
+.idea/
+.vs/
+
+# Compiled binaries
+*.exe
+*.pdb
+*.ilk
+*.obj
