@@ -7,3 +7,9 @@ DoThis uses a single gRPC service (`ToDoService`) backed by an in-memory Kanban 
 - **Contract:** `proto/todo.proto` shared by both projects
 
 See the root [README](../README.md) for the full diagram.
+
+## Ports
+
+| Service | Port | Notes |
+|---------|------|-------|
+| DoThis gRPC server | `50051` | Insecure HTTP/2, local/LAN only |
